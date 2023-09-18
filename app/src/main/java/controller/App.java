@@ -14,7 +14,10 @@ public class App {
     model.Client m = new model.Client("beata", "be222gr@student.lnu.se");
     Simple c = new Simple();
     view.ConsoleUI v = new view.ConsoleUI();
+    model.Nutritionist n = new model.Nutritionist();
+    n.addClient("beata", "be222gr@student.lnu.se");
 
     c.doSomethingSimple(m, v);
+    c.printClients(n, v);
   }
 }

@@ -1,5 +1,7 @@
 package view;
 
+import java.util.ArrayList;
+
 /**
  * This is just an example contoller class. You should remove it.
  */
@@ -14,4 +16,7 @@ public class ConsoleUI {
     System.out.println(message);
   }
 
+    public void showClients(String clients) {
+    System.out.println(clients);
+  }
 }

@@ -15,4 +15,7 @@ public class Simple {
     v.showMessage(m.getMessage());
   }
 
+    public void printClients(model.Nutritionist n, view.ConsoleUI v) {
+    v.showClients(n.getClients());
+  }
 }
